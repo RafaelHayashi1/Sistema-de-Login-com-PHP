@@ -1,0 +1,46 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #282828;
+    background: #252525;
+    background: -webkit-radial-gradient(top right, #252525, #050505);
+    background: -moz-radial-gradient(top right, #252525, #050505);
+    background: radial-gradient(to bottom left, #252525, #050505);
+    font-family: Franklin Gothic Medium;
+    color: white;
+}
+
+#borda {
+    width: 300px;
+    height: 260px;
+    background-color: #666;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, .2);
+    opacity: 0.5;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+}
+
+
+body {
+    margin: 0px;
+}
+
+.distancia {
+    margin: 10px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background: whitesmoke;
+    box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
